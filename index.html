@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="day-theme">
+    <div class="nav-wrapper">
+      <nav id="navbar" class="side-nav">
+        <img src="./images/karina.jpeg" alt="" id="me" />
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Skills</a>
+      </nav>
+    </div>
+    <div class="main-wrapper">
+      <main class="content">
+        <!-- Content Sections -->
+        <h1>Hi, I'm Karina!</h1>
+        <section id="about" class="page-sections">
+          <p>
+            As a dedicated UX/UI Developer and Front-End Engineer, I hold dual
+            Bachelor's degrees in Information Technology Engineering and
+            Business Management. My academic journey has been richly immersed in
+            Web Design, Software Development, and Web Applications, fueling my
+            aspiration to excel in this field. I am deeply committed to
+            enhancing user experiences through innovative front-end development,
+            where my passion not only lies in crafting visually appealing
+            interfaces but also in ensuring seamless user interactions.
+          </p>
+          <p>Download my CV here</p>
+          <a href="./images/Karina_Raikula_CV.pdf" download>
+            <img src="./images/cv-icon.png" alt="CV Download link" />
+          </a>
+        </section>
+        <section id="experience" class="page-sections">
+          <h1>Experience</h1>
+          <h2>COORDINATOR</h2>
+          <p class="timeline">Sofigate OY, June 2023 - present</p>
+          <p>
+            Organised training events for Sofigate Academy, serving as the
+            central point of contact for all logistical aspects, such as
+            ensuring optimal spaces for effective learning experiences and
+            accommodating diverse training requirements.
+          </p>
+
+          <p>Alongside my daily responsibilities I have:</p>
+          <ul>
+            <li>
+              Developed an AI chatbot with CustomGPT for the IT and Security
+              department. Chatbot is available on company's intranet and helps
+              users with IT and Security related questions.
+            </li>
+            <li>
+              Was part of a team creating a chatbot with chatGPT for a
+              high-profile conference for Combient companies. Designed to
+              deliver tailored operating model implementation plans, the chatbot
+              dynamically generated strategies based on user responses to
+              prompted queries.
+            </li>
+          </ul>
+
+          <h2>THESIS WORKER</h2>
+          <p class="timeline">Dyme Solutions, Feb - April 2023</p>
+          <p>
+            Wrote automated End-to-end test scenarios with Cypress, enhancing
+            the efficiency of the testing process and reducing manual testing
+            efforts.
+          </p>
+          <p>
+            Wrote thesis "Implementation of Automated End-To-End Testing in Web
+            Applications" based on the scope of the work and results achieved.
+          </p>
+          <h2>FULL STACK DEVELOPMENT INTERN (STARTUP)</h2>
+          <p class="timeline">Komu Homes, Jan – Jun 2020, 6 months</p>
+          <p class="experience-intro">
+            Collaborated within a dynamic team of six software developers to
+            design and deploy a scalable web application tailored for rental
+            companies, leveraging Vue.js, Firebase, and Material UI in an Agile
+            development setting.
+          </p>
+          <ul id="komu">
+            <li>
+              Developed a new snackbar component to reduce reused code across
+              10s of components.
+            </li>
+            <li>
+              Ran automated Cypress tests for the Front end to ensure usability
+              satisfaction for customers and a working product.
+            </li>
+            <li>
+              Developed and updated Cypress tests as new components were
+              introduced.
+            </li>
+            <li>
+              Conducted comprehensive weekly product evaluations, identifying
+              and resolving critical bugs, and meticulously documenting issues
+              within a shared Trello board to streamline team communication and
+              task management.
+            </li>
+            <li>
+              Participated actively in daily problem solving, code review,
+              meetings and brainstorming with the whole team.
+            </li>
+          </ul>
+        </section>
+        <section id="education" class="page-sections">
+          <h1>Education</h1>
+          <h2>Metropolia University of Applied Sciences, Finland</h2>
+          <p class="timeline">
+            Bachelor of Engineering - BEng Information Technology, 2020 – 2023
+          </p>
+          <p>Projects are available to view on GitHub</p>
+          <ul>
+            <h3>Basics of Web Development</h3>
+            <li>
+              Created a photo sharing platform with a partner, using JavaScript,
+              HTML, CSS, and MySQL.
+            </li>
+            <h3>Media Services and User Experience</h3>
+            <li>
+              Developed the Front end of a photo sharing platform, in a small
+              group, using React and Materialize.
+            </li>
+            <h3>Media Distribution and Information Streams</h3>
+            <li>
+              Redesigned a webpage for an upcoming livestream using JavaScript,
+              HTML and Tailwind
+            </li>
+            <li>
+              Presented the final project via an embedded livestream on page
+            </li>
+            <h3>Web Technologies and Media Platforms</h3>
+            <li>
+              Developed a signage with real time weather, public transport, and
+              lunch data in a small group utilising RaspberryPi.
+            </li>
+          </ul>
+
+          <h2>University of Aberdeen, Scotland</h2>
+          <p class="timeline">
+            Master of Arts – MA Business Management, 2016 – 2020, 2:1
+          </p>
+        </section>
+        <section id="contact" class="page-sections">
+          <h1>Skills</h1>
+          <p>Coding.</p>
+        </section>
+        <aside class="link-aside">
+          <div id="nav-links">
+            <a href="https://github.com/karinaraikula"
+              ><img
+                src="./images/github-icon.png"
+                alt="Github link"
+                id="github-img"
+            /></a>
+            <a href="https://www.linkedin.com/in/karinaraikula/"
+              ><img
+                src="./images/linkedin-icon.png"
+                alt="Linkedin link"
+                id="linkedin-img"
+            /></a>
+            <button id="theme-toggle">
+              <img src="./images/sun.png" alt="Theme toggle" id="theme-icon" />
+            </button>
+          </div>
+        </aside>
+      </main>
+    </div>
+    <script>
+      const themeToggle = document.getElementById("theme-toggle");
+      const themeIcon = document.getElementById("theme-icon");
+      const linkedinIcon = document.getElementById("linkedin-img");
+      const githubIcon = document.getElementById("github-img");
+
+      // Define your theme icons
+      const dayIcon = "./images/moon.png";
+      const nightIcon = "./images/sun.png";
+
+      const dayLinkedin = "./images/linkedin-icon.png";
+      const nightLinkedin = "./images/linkedin-night.png";
+
+      const dayGithub = "./images/github-icon.png";
+      const nightGithub = "./images/github-night.png";
+
+      // Initial check and setup
+      function updateIcon() {
+        if (document.body.classList.contains("night-theme")) {
+          themeIcon.src = nightIcon;
+          linkedinIcon.src = nightLinkedin;
+          githubIcon.src = nightGithub;
+          themeIcon.alt = "Switch to Day Theme";
+        } else {
+          themeIcon.src = dayIcon;
+          linkedinIcon.src = dayLinkedin;
+          githubIcon.src = dayGithub;
+          themeIcon.alt = "Switch to Night Theme";
+        }
+      }
+      updateIcon(); // Call on script load to set the correct initial icon
+
+      themeToggle.addEventListener("click", function () {
+        document.body.classList.toggle("night-theme");
+        updateIcon();
+      });
+    </script>
+  </body>
+</html>
