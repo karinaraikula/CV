@@ -284,4 +284,7 @@ li {
   #theme-icon {
     width: 30px;
   }
+  #about {
+    line-height: 1.4;
+  }
 }
