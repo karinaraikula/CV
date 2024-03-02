@@ -40,6 +40,9 @@ h3 {
 hr {
   margin-top: 20px;
 }
+a {
+  color: var(--text-color);
+}
 a:visited {
   color: var(--text-color);
 }
