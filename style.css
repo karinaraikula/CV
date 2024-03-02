@@ -36,6 +36,9 @@ h3 {
   font-size: 0.9em;
   margin-top: 0.5em;
 }
+a:visited {
+  color: var(--text-color);
+}
 
 .timeline {
   font-style: italic;
