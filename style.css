@@ -331,7 +331,7 @@ li {
 @media (max-width: 650px) {
   .side-nav a {
     font-size: 1em;
-    margin: 2px;
+    margin: 5px 0;
     padding: 0;
   }
   .content {
