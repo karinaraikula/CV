@@ -151,7 +151,6 @@ a:visited {
     0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-weight: 300;
-  transition: 0.5s;
 }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -233,7 +232,6 @@ a:visited {
   z-index: 100;
   border: none;
   padding: 10px;
-  transition: 0.5s;
 }
 
 #about {
@@ -302,6 +300,7 @@ li {
     position: fixed; /* or 'relative' depending on your layout */
     justify-content: space-around;
     padding: 10px 0; /* Adjust based on your design */
+    transition: 0.8s;
   }
   #me {
     display: none;
