@@ -54,3 +54,10 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+window.addEventListener("load", () => {
+  const preload = document.querySelector("#preloader");
+  setTimeout(function () {
+    document.querySelector("#preloader").style.display = "none";
+  }, 1000);
+});

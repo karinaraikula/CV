@@ -19,29 +19,87 @@
   </head>
 
   <body class="day-theme">
+    <div id="preloader"></div>
     <div class="nav-wrapper">
       <nav id="navbar" class="side-nav">
-        <img src="./images/karina.jpeg" alt="" id="me" />
-        <a href="#about">ABOUT</a>
-        <a href="#experience">EXPERIENCE</a>
-        <a href="#education">EDUCATION</a>
-        <a href="#contact">SKILLS</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Skills</a>
       </nav>
     </div>
+
     <div class="main-wrapper">
+      <header>
+        <div class="image-container">
+          <div class="text">Hi! I'm Karina</div>
+        </div>
+      </header>
+      <aside class="link-aside">
+        <div id="nav-links">
+          <a href="https://github.com/karinaraikula"
+            ><img
+              src="./images/github-icon.png"
+              alt="Github link"
+              id="github-img"
+          /></a>
+          <a href="https://www.linkedin.com/in/karinaraikula/"
+            ><img
+              src="./images/linkedin-icon.png"
+              alt="Linkedin link"
+              id="linkedin-img"
+          /></a>
+          <button id="theme-toggle">
+            <img src="./images/sun.png" alt="Theme toggle" id="theme-icon" />
+          </button>
+        </div>
+      </aside>
       <main class="content">
         <!-- Content Sections -->
-        <h1 id="main-title">HI, I'M KARINA</h1>
         <section id="about" class="page-sections">
+          <div class="flex">
+            <p class="about">
+              Hi! I’m Karina, an enthusiastic UX/UI and Frontend Developer.
+              <br />I am looking for positions focused on Frontend, UI and UX
+              Development in Web Applications. <br />
+              I hold two Bachelor's degrees: Information and Communication
+              Technology Engineering and Business Management. I have the right
+              to work in the UK under a pre-settled status from the EU
+              Settlement Scheme.
+            </p>
+            <div class="image-wrapper">
+              <img src="./images/karina.jpeg" alt="" id="me" />
+            </div>
+          </div>
+          <hr />
+          <br />
+
+          <h1 style="font-size: 1.5em; margin-top: 10px; margin-bottom: 5px">
+            IN SHORT
+          </h1>
           <p>
-            Hi! I’m Karina, an enthusiastic UX/UI and Frontend Developer.
-            <br />I am looking for positions focused on Frontend, UI and UX
-            Development in Web Applications. <br />
-            I hold two Bachelor's degrees: Information and Communication
-            Technology Engineering and Business Management. I have the right to
-            work in the UK under a pre-settled status from the EU Settlement
-            Scheme.
+            <b
+              >My absolute favourite thing to do is enhancing user experiences
+              through clear and pleasing Frontend development</b
+            >. I love crafting visually appealing interfaces but also ensuring
+            seamless user interactions, responsiveness and scalability. I have 3
+            years of hands-on academic experience and nearly one year of
+            professional experience with Web Development.
           </p>
+
+          <p style="margin-top: 1em">Thanks for stopping by.</p>
+          <p style="display: flex">Download my CV here or keep scrolling!</p>
+          <a
+            href="./images/Karina_Raikula_CV.pdf"
+            download
+            style="display: flex"
+          >
+            <img
+              src="./images/cv-light.png"
+              alt="CV Download link"
+              id="cv-icon"
+            />
+          </a>
         </section>
         <section class="coll-sections">
           <button type="button" class="collapsible">ACADEMIC BACKGROUND</button>
@@ -54,10 +112,12 @@
               and libraries such as <b>React, Bootstrap and Tailwind</b>. I have
               created and used multiple
               <b>SQL, Firebase and MariaDB</b> databases and contributed to an
-              <b>Amazon Dynamo</b> database. I am skilled in version control
-              through <b>GitHub</b> and have been using <b>Node</b> regularly.
-              Other skills I have picked up along the way are mentioned in more
-              detail in the <a href="#contact">skills</a> section, such as
+              <b>Amazon Dynamo</b> database. <br />
+              <br />
+              I am skilled in version control through <b>GitHub</b> and have
+              been using <b>Node</b> regularly. Other skills I have picked up
+              along the way are mentioned in more detail in the
+              <a href="#contact">skills</a> section, such as
               <b>Adobe Photoshop and Illustrator</b>. My understanding of web
               accessibility, <b>SEO</b>, and performance optimisation best
               practices with Lighthouse underscores my commitment to delivering
@@ -96,34 +156,7 @@
             </p>
           </div>
         </section>
-        <section id="about" class="page-sections">
-          <h1 style="font-size: 1.5em; margin-top: 10px; margin-bottom: 5px">
-            IN SHORT
-          </h1>
-          <p>
-            My absolute <b>favourite</b> thing to do is
-            <b
-              >enhancing user experiences through clear and pleasing Frontend
-              development</b
-            >. I love crafting visually appealing interfaces but also ensuring
-            seamless user interactions, responsiveness and scalability. I have 3
-            years of hands-on academic experience and nearly one year of
-            professional experience with Web Development.
-          </p>
-          <p style="margin-top: 1em">Thanks for stopping by.</p>
-          <p style="display: flex">Download my CV here or keep scrolling!</p>
-          <a
-            href="./images/Karina_Raikula_CV.pdf"
-            download
-            style="display: flex"
-          >
-            <img
-              src="./images/cv-light.png"
-              alt="CV Download link"
-              id="cv-icon"
-            />
-          </a>
-        </section>
+
         <section id="experience" class="page-sections">
           <h1>EXPERIENCE</h1>
           <h2>Coordinator</h2>
@@ -269,25 +302,6 @@
           <br />
           <p>Spoken languages: English, Finnish, Russian, Estonian</p>
         </section>
-        <aside class="link-aside">
-          <div id="nav-links">
-            <a href="https://github.com/karinaraikula"
-              ><img
-                src="./images/github-icon.png"
-                alt="Github link"
-                id="github-img"
-            /></a>
-            <a href="https://www.linkedin.com/in/karinaraikula/"
-              ><img
-                src="./images/linkedin-icon.png"
-                alt="Linkedin link"
-                id="linkedin-img"
-            /></a>
-            <button id="theme-toggle">
-              <img src="./images/sun.png" alt="Theme toggle" id="theme-icon" />
-            </button>
-          </div>
-        </aside>
       </main>
     </div>
 
