@@ -349,11 +349,6 @@ li {
 }
 .nav-wrapper {
   width: 0px;
-  .content {
-    margin-top: 60px;
-    max-width: 100%;
-    margin: auto;
-  }
 
   #nav-links {
     margin-top: 5em;
@@ -384,19 +379,18 @@ li {
     width: 100%;
   }
   .image-wrapper {
+    width: 100%;
     margin: auto;
-  }
-
-  #me {
-    flex-direction: row;
   }
 }
 
 @media (max-width: 650px) {
   .content {
+    width: 100% !important;
     margin-top: 0;
     padding-top: 0;
   }
+
   .page-sections {
     width: 100%;
   }
@@ -416,9 +410,7 @@ li {
     width: 80%;
     font-size: 3em;
   }
-  .content {
-    width: 100%;
-  }
+
   .main-wrapper {
     width: 100%;
     margin: auto;
